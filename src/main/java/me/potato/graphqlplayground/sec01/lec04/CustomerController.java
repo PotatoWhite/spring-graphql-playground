@@ -30,4 +30,5 @@ public class CustomerController {
         return orderService
                 .getOrdersByNames(list.stream().map(Customer::getName).toList());
     }
+
 }
