@@ -1,0 +1,6 @@
+type Query {
+    sayHello: String
+    sayHelloDelay: String
+    sayHelloTo(name: String!): String!
+    random: Int!
+}
